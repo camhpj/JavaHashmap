@@ -31,13 +31,6 @@ public class LinkedList<E>{
     }
 
     public static void main(String[] args){
-        LinkedList<String> LList = new LinkedList<>();
-        LList.add("cock");
-        LList.add("and");
-        LList.add("balls");
-        System.out.println(LList);
-        LList.remove("and");
-        System.out.println(LList);
     }
 
     public LinkedList(){
